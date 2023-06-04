@@ -5,7 +5,7 @@
 
 import java.util.Scanner;
 
-public class krestnol {
+public class tic_tac_toe {
     private static int table_dim = 3;     // Размеры игрового поля (9 - предел, обусловленный вводом значений)
     private static int[][] table = new int[table_dim][table_dim]; // Само игровое поле
     private static int PC_PlayBy = 1;     // ПК играет за... 1=крестики (ходят первыми), 100=нолики
